@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "microserviceTest",
+    "packageName": "com.fama.core",
+    "packageFolder": "com/fama/core",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "tr",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "NjMzMmM4ODcyZDU1YjlmODdmNjFkYjc2NDhlNjdkNjI5MTBiMzY1MGU3NDM1MzM1ZTE5ZDNkMzdhNjFlZmZhMmVkZmQyYjUxN2UyOWZlNjgyNzlkN2MyOTNlYmI0YTMyNWYzZmY2YTRlMTZhYWE3MGViYjRlMmU0ZTE2NjdkM2M=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "mrtks13",
+  "repository-name": "microserviceTest"
+}
